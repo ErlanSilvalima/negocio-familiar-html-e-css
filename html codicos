@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Tech | Soluções Digitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Topo da Página -->
+    <header>
+        <h1>Nexus Tech</h1>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Apresentação Principal -->
+    <section class="principal">
+        <h2>Criamos o futuro digital do seu negócio</h2>
+        <p>Desenvolvimento de sites, sistemas e automações para destacar sua empresa no mercado.</p>
+        <a href="#contato" class="botao">Fale Conosco</a>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="lista-servicos">
+            <div class="item-servico">
+                <h3>Sites Modernos</h3>
+                <p>Criação de páginas rápidas que se adaptam ao celular.</p>
+            </div>
+            <div class="item-servico">
+                <h3>Sistemas Web</h3>
+                <p>Automações de processos para facilitar o seu dia a dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Nexus Tech. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
