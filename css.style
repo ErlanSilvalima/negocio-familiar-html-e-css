@@ -1,0 +1,103 @@
+/* Configurações Gerais da Página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do Topo (Header) */
+header {
+    background-color: #1a202c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Bloco Principal (Hero) */
+.principal {
+    background-color: #f7fafc;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.principal h2 {
+    font-size: 32px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #3182ce;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Seção de Serviços */
+.servicos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.lista-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Faz quebrar a linha se a tela for pequena */
+}
+
+.item-servico {
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+/* Seção de Contato e Formulário */
+.contato {
+    background-color: #edf2f7;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+form input, form button {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2b6cb0;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
